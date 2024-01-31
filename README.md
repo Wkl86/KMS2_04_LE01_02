@@ -29,4 +29,4 @@ Radiobuttens: Gender für die Auswahl von männlich, weiblich und divers
 Emailinput mit einem Label
 Textarea für das Kommentar
 Auswahl aus welchen Bundesland es geschrieben wurde
-Button für Senden oder Reseten
+Button für Senden oder Reseten.
