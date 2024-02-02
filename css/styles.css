@@ -63,23 +63,28 @@ body {
 
 #theater_cafe {
     text-align: center;
-    font-size: 56px;
+    font-size: 3.5rem;
 }
 
 #feedback{
     text-align: center;
-    font-size: 56px;
+    font-size: 3.5rem;
 }
 
  #galerie{
     text-align: center;
-    font-size: 56px;
+    font-size: 3.5rem;
+}
+
+#contact_data{
+    text-align: center;
+    font-size: 3.5rem;
 }
 
 
 .description{
     text-align: center;
-    font-size: 35px;
+    font-size: 2.4rem;
 }
 
 div > p {
@@ -130,10 +135,50 @@ span {
         text-align: center; }
 
 
+
+
+@media (max-width: 1400px) {
+    .col-4 {width:  43%;;}
+}
+
+@media (max-width: 990px) {
+    .col-4 {width: 40%;}
+}
+
 @media (max-width: 910px) {
     .col-4 {width: 40%;}
 }
 
+@media (max-width: 698px) {
+    .col-4 {width: 90%;}
+}
+
+
+@media (max-width: 523px){
+    #feedback{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+     #galerie{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    #contact_data{
+        text-align: center;
+        font-size: 2rem;
+    }
+    #theater_cafe {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .description{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+}
 @media (max-width: 464px) {
-    .col-4 {width: 100%;}
+    .col-4 {width: 90%;}
 }
