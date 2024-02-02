@@ -30,3 +30,13 @@ Emailinput mit einem Label
 Textarea für das Kommentar
 Auswahl aus welchen Bundesland es geschrieben wurde
 Button für Senden oder Reseten.
+
+
+
+## Update 02.02.2024
+
+Entfernen der Dateien: galerie.html und feedback.html
+Hinzufügen des Inhaltes der Dateien zu index.html
+Hinzufügen der Ankertags für das Navigieren zu den jeweiligen Inhalten.
+Hinzufügen der Ankertags in die Navigationsleiste.
+Responsivität erstellen.
