@@ -105,60 +105,58 @@
     </div>
 
     <div class="container">
-        <div id="change_feedback" class="feedback_form"> 
+        <div id="change_feedback" class="row"> 
             <!-- Quelle dazu https://www.codewithrandom.com/2023/11/23/feedback-form-using-html/-->
             <h1 id="feedback">Kundenfeedback-Formular</h1>
-            <form action="mailto:walter.kleinmaier@gmail.com" method="post" enctype="text/plain">
-                <label for="firstname">Vorname:</label>
-                <input type="text" id="firstname" name="firstname" placeholder="Vorname:" required>
-                
-                <label for="secondname">Nachname:</label>
-                <input type="text" id="secondname" name="secondname" placeholder="Nachname:" required>
-                
-                <br>
-                <br>
-        
-                
-                <label>Geschlecht:</label>
-                <input type="radio" id="male" name="gender" value="male" required>
-                <label for="male">Männlich</label>
-                <input type="radio" id="female" name="gender" value="female" required>
-                <label for="female">Weiblich</label>
-                <input type="radio" id="divers" name="gender" value=divers" required>
-                <label for="female">Divers</label>
-                <br>
-                <br>
-        
-                <label for="mail">Emailadresse:</label>
-                <input type="email" id="mail" name="mail" placeholder="Emailadresse:" required>
+       
+                <form action="mailto:walter.kleinmaier@gmail.com" method="post" enctype="text/plain">
+                    <div class="col-1">
+                        <label class="label" for="firstname">Vorname:</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Vorname:" required>
+                        <br><br>
+                        <label class="label" for="secondname">Nachname:</label>
+                        <input type="text" id="secondname" name="secondname" placeholder="Nachname:" required>
+                        <br><br>
+                        <label class="label" for="mail">Emailadresse:</label>
+                        <input type="email" id="mail" name="mail" placeholder="Emailadresse:" required>
+                    </div>
 
-                <br>
-                <br>
-        
-                <label for="commentfield">Kommentar:</label>
-                <textarea rows="6" cols="auto"  id="commentfield" name="commentfield" required></textarea>
-        
-                <br>
-        
-                <label for="countychooser">Bundesländer auswählen:</label>
-                <select id="countychooser" name="countychooser" required>
-                    <option value="vienna">Wien</option>
-                    <option value="lowerAutria">Niederöstrreich</option>
-                    <option value="upperAutria">Oberösterreich</option>
-                    <option value="carintia">Kärnten</option>
-                    <option value="burgenland">Burgenland</option>
-                    <option value="salzburg">Salzburg</option>
-                    <option value="tyrol">Tirol</option>
-                    <option value="styria">Steiermark</option>
-                    <option value="vorarlberg">Vorarlberg</option>
-                </select>
+                    <div class="col-1">
+                        <label class="label_genders">Geschlecht</label>
+                        <input class="radio_btn" type="radio" id="male" name="gender" value="male" required>
+                        <label class="label" for="male">Männlich</label>
+                        <input class="radio_btn" type="radio" id="female" name="gender" value="female" required>
+                        <label class="label" for="female">Weiblich</label>
+                        <input class="radio_btn"  type="radio" id="divers" name="gender" value="divers" required>
+                        <label class="label" for="female">Divers</label>
+                    </div>
+                
 
-                <br>
-                <br>
-        
-                <input type="submit" value="Senden">
-                <input type="reset" value="Reset">
-            </form>
+                    <div class="col-1">
+                        <label class="label" for="commentfield">Kommentar:</label>
+                        <textarea rows="6" cols="auto"  id="commentfield" name="commentfield" required></textarea>
+                    </div> 
+
+                    <div class="col-1 ">
+                        <label class="label_country" for="countychooser">Bundesländer auswählen</label>
+                        <select class="select_country" id="countychooser" name="countychooser" required>
+                            <option value="vienna">Wien</option>
+                            <option value="lowerAutria">Niederöstrreich</option>
+                            <option value="upperAutria">Oberösterreich</option>
+                            <option value="carintia">Kärnten</option>
+                            <option value="burgenland">Burgenland</option>
+                            <option value="salzburg">Salzburg</option>
+                            <option value="tyrol">Tirol</option>
+                            <option value="styria">Steiermark</option>
+                            <option value="vorarlberg">Vorarlberg</option>
+                        </select>
+                    </div> 
+
+                    <div class="col-1">
+                    <input type="submit" value="Senden">
+                    <input type="reset" value="Reset">
+                    </div>  
+                </form>
         </div>
     </div>
 </body>
