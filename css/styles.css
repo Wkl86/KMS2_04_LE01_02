@@ -39,6 +39,22 @@ body {
 
 .header_nav > ul > li > a:link{
     color:#d60808;
+
+    text-decoration: none;
+}
+
+
+
+.header_nav > ul > li > a:trans {
+    transition-property: width, height;
+    transition-duration: 3s, 3s;
+    transition-timing-function:ease-in-out t;
+}
+
+
+.header_nav > ul > li > a:link{
+    color: #fff;
+
     text-decoration: none;
 }
 
@@ -69,29 +85,34 @@ body {
 
 
 #theater_cafe {
+    font-family: Arial, Helvetica;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 #feedback{
+    font-family: Arial, Helvetica;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
  #galerie{
+    font-family: Arial, Helvetica;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 #contact_data{
+    font-family: Arial, Helvetica;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 
 .description{
+    font-family: Arial, Helvetica;
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 3rem;
 }
 
 div > p {
@@ -107,17 +128,61 @@ span {
     
 }
 
-.feedback_form{
-    text-align: center;
-}
-
 
 .container {
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+
+.container > div > p {
+    font-size: 1.5rem;
+}
+
+.label {
+    padding: 2px;
+    display: block;
+}
+
+.label_genders {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.radio_btn {
+    display: inline-block;
+}
+
+.label_country{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.select_country{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: .55rem;
+}
+
+
+.label{
+    font-size: 1.5rem;
+}
+
+
+.input_customer {
+    font-size: 1.5rem;
+}
+
+footer > #change_contact > p{
+    font-size: 1.5rem;
+}
+
 
 .row::after {
     content: "";
@@ -128,7 +193,7 @@ span {
 [class*='col-']{
     float: left;
     min-height: 1px;
-    padding: 1.7rem;
+    padding: 1.0rem;
 
 }
 
@@ -143,17 +208,62 @@ span {
     transition-timing-function: ease-in, ease-out;
 }
 
+
 .Kaffee:hover {
     width: 300px;
     height: 300px;
 }
 
 
-.col-4 { width: 20%;
+
+.Kaffee:hover {
+    width: 300px;
+    height: 300px;
+}
+
+video {
+    width:  80%;
+    height: auto;
+}
+
+.video {
+    text-align: center;
+}
+
+
+.col-4 { width: 22%;
         text-align: center; }
 
+.col-1 { width: 97%;
+        text-align: center;}
 
 
+@media(max-width: 605px) {
+    video {
+        width:  100%;
+        height: 100%;
+    }
+}
+
+@media(max-width: 523px) {
+    video {
+        width:  100%;
+        height: 100%;
+    }
+}
+
+
+@media(max-width: 373px) {
+    video {
+        width:  100%;
+        height: auto;
+        font: optional;
+        
+    }
+}
+@media (max-width: 698px) {
+    .col-1 {width: 90%;}
+}
 
 @media (max-width: 1400px) {
     .col-4 {width:  43%;;}
@@ -172,7 +282,7 @@ span {
 }
 
 
-@media (max-width: 523px){
+@media (max-width: 665px){
     #feedback{
         text-align: center;
         font-size: 2rem;
@@ -194,6 +304,44 @@ span {
     .description{
         text-align: center;
         font-size: 2rem;
+    }
+
+    .container > div > p {
+        font-size: 1rem;
+    }
+
+    .label_country{
+        font-size: 1rem;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 1rem;
+    }
+
+    .label_genders {
+        font-size: 1rem;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 1rem;
+    }
+
+    .select_country{
+        font-size: 1rem;
+        display: inline-block;
+        margin: .55rem;
+    }
+    
+    
+    .label{
+        font-size: 1rem;
+    }
+    
+    
+    .input_customer {
+        font-size: 1rem;
+    }
+
+    footer > #change_contact > p{
+        font-size: 1rem;
     }
     
 }
