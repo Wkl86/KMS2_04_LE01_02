@@ -50,22 +50,7 @@ body {
     transition-timing-function:ease-in-out t;
 }
 
-.header_nav > ul > li > a:hover {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
 
-
-.header_nav > ul > li > a:active{
-    color:  white;
-    text-decoration: none;
-}
-
-
-.header_nav > ul > li > a:visited{
-    color:#fff;
-    text-decoration: none;
-}
 .header_nav > ul > li > a:link{
     color: #fff;
     text-decoration: none;
