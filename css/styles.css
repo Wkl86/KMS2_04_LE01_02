@@ -91,29 +91,34 @@ body {
 
 
 #theater_cafe {
+    font-family: Arial, Helvetica;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 #feedback{
+    font-family: Arial, Helvetica;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
  #galerie{
+    font-family: Arial, Helvetica;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 #contact_data{
+    font-family: Arial, Helvetica;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 
 .description{
+    font-family: Arial, Helvetica;
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 3rem;
 }
 
 div > p {
@@ -137,13 +142,17 @@ span {
     margin-right: auto;
 }
 
+.container > div > p {
+    font-size: 1.5rem;
+}
+
 .label {
     padding: 2px;
     display: block;
 }
 
 .label_genders {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     display: block;
     padding-bottom: 1rem;
@@ -154,17 +163,32 @@ span {
 }
 
 .label_country{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     display: block;
     padding-bottom: 1rem;
 }
 
 .select_country{
+    font-size: 1.5rem;
     display: inline-block;
     margin: .55rem;
- 
 }
+
+
+.label{
+    font-size: 1.5rem;
+}
+
+
+.input_customer {
+    font-size: 1.5rem;
+}
+
+footer > #change_contact > p{
+    font-size: 1.5rem;
+}
+
 
 .row::after {
     content: "";
@@ -256,7 +280,7 @@ video {
 }
 
 
-@media (max-width: 523px){
+@media (max-width: 665px){
     #feedback{
         text-align: center;
         font-size: 2rem;
@@ -278,6 +302,44 @@ video {
     .description{
         text-align: center;
         font-size: 2rem;
+    }
+
+    .container > div > p {
+        font-size: 1rem;
+    }
+
+    .label_country{
+        font-size: 1rem;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 1rem;
+    }
+
+    .label_genders {
+        font-size: 1rem;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 1rem;
+    }
+
+    .select_country{
+        font-size: 1rem;
+        display: inline-block;
+        margin: .55rem;
+    }
+    
+    
+    .label{
+        font-size: 1rem;
+    }
+    
+    
+    .input_customer {
+        font-size: 1rem;
+    }
+
+    footer > #change_contact > p{
+        font-size: 1rem;
     }
     
 }
